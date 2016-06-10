@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First Git Project: BMP Font Convertor for Unity"
+title:  "First Project: BMP Font Convertor for Unity"
 date:   2016-06-10 10:45:29 +0800
 categories: Unity Tools
 ---
