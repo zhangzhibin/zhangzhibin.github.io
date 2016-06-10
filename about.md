@@ -31,3 +31,10 @@ In my opinion of view, Unity is much more muture than Cocos2D. It is a really wi
 I am mainly focusing on casual, small sized mobile games.
 
 So far so good.
+
+Here is a list of published games I have contributed to:
+
+* Battery Run 1
+* [Battery Run 2](http://run.737.com/?from=sem) 
+
+	![BatteryRun](http://feiyu.com/attachment/img/20160330/140647332453.jpg)
