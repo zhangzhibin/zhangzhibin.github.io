@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  "Steps To Setup Godday Domain With Github Page"
+title:  "Steps To Setup Godday Domain With GitHub Page"
 date:   2016-06-10 10:45:29 +0800
 categories: blog
 ---
 
-A quick guide for setting up Godaddy domain/subdomain with Github pages:
+A quick guide for setting up Godaddy domain/subdomain with GitHub pages:
 
-1. create a repo on Github
+###GitHub###
+1. create a repo on GitHub
 2. Repo -> *Settings* -> *GitHub Pages* -> *Source*  choose a branch (ie. master)
 3. *Settings* -> *GitHub Pages* -> *Custom domain* Choose your prefered domain and Save.
 
@@ -15,21 +16,22 @@ A quick guide for setting up Godaddy domain/subdomain with Github pages:
 
 Now go to GoDaddy to manage your domain. Assume your domain is example.com, and your github name is gituser.
 
-1.Two A links
+1.Two A links  
 |Type|Host|Points to|TTL|
 |----|----|----|----|
 |A|@|192.30.252.153|1 Hour|
 |A|@|192.30.252.154|1 Hour|
 
-2.Add CNAME for www
+2.Add CNAME for www  
 |Type|Host|Points to|TTL|
 |----|----|----|----|
 |CNAME|www|gituser.github.io|1 Hour|
 
-[ ] Your domain (www.example.com) will connect to GitHup page in a few minutes.
+> Your domain (www.example.com) will connect to GitHup page in a few minutes.
 
-3.Add CNAME for other subdomain
+3.Add CNAME for other subdomain (ie, blog)    
 |Type|Host|Points to|TTL|
 |----|----|----|----|
 |CNAME|blog|gituser.github.io|1 Hour|
-[ ] Your sub-domain (blog.example.com) will connect to GitHup page in a few minutes.
+
+> Your sub-domain (blog.example.com) will connect to GitHup page in a few minutes.
