@@ -1,37 +1,80 @@
 ---
 layout: post
 title:  "Steps To Setup Godday Domain With GitHub Page"
-date:   2016-06-10 10:45:29 +0800
+date:   2016-11-19 20:00:00 +0800
 categories: blog
 ---
 
 A quick guide for setting up Godaddy domain/subdomain with GitHub pages:
 
-###GitHub###
+### On GitHub ###
 1. create a repo on GitHub
 2. Repo -> *Settings* -> *GitHub Pages* -> *Source*  choose a branch (ie. master)
 3. *Settings* -> *GitHub Pages* -> *Custom domain* Choose your prefered domain and Save.
 
 > For quick testing, you may use *Settings* -> *Automatic page generator* to quickly generate a page.
 
-Now go to GoDaddy to manage your domain. Assume your domain is example.com, and your github name is gituser.
+### On GoDaddy ###
+Assume your domain is *example.com*, and your GitHub name is *gituser*.
 
-1.Two A links  
-|Type|Host|Points to|TTL|
-|----|----|----|----|
-|A|@|192.30.252.153|1 Hour|
-|A|@|192.30.252.154|1 Hour|
+1.Two A links
 
-2.Add CNAME for www  
-|Type|Host|Points to|TTL|
-|----|----|----|----|
-|CNAME|www|gituser.github.io|1 Hour|
+<table>
+    <tr>
+        <td>Type</td>
+        <td>Host</td>
+        <td>Points to</td>
+        <td>TTL</td>
+    </tr>
+     <tr>
+        <td>A</td>
+        <td>@</td>
+        <td>192.30.252.153</td>
+        <td>1 Hour</td>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td>@</td>
+        <td>192.30.252.154</td>
+        <td>1 Hour</td>
+    </tr>    
+</table>  
 
-> Your domain (www.example.com) will connect to GitHup page in a few minutes.
+2.Add CNAME for www
 
-3.Add CNAME for other subdomain (ie, blog)    
-|Type|Host|Points to|TTL|
-|----|----|----|----|
-|CNAME|blog|gituser.github.io|1 Hour|
+<table>
+    <tr>
+        <td>Type</td>
+        <td>Host</td>
+        <td>Points to</td>
+        <td>TTL</td>
+    </tr>
+    <tr>
+        <td>CNAME</td>
+        <td>www</td>
+        <td>gituser.github.io</td>
+        <td>1 Hour</td>
+    </tr>    
+</table>
+  
+> Your domain (www.example.com) will connect to GitHub page in a few minutes.
 
-> Your sub-domain (blog.example.com) will connect to GitHup page in a few minutes.
+  
+3.Add CNAME for other subdomain (ie, blog)
+
+<table>
+    <tr>
+        <td>Type</td>
+        <td>Host</td>
+        <td>Points to</td>
+        <td>TTL</td>
+    </tr>
+    <tr>
+        <td>CNAME</td>
+        <td>blog</td>
+        <td>gituser.github.io</td>
+        <td>1 Hour</td>
+    </tr>    
+</table>
+
+> Your sub-domain (blog.example.com) will connect to GitHub page in a few minutes.
