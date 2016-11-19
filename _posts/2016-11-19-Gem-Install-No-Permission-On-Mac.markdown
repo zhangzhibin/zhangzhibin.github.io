@@ -7,8 +7,7 @@ categories: blog
 
 From MacOS 10.11, install apps with Gem command may failed with error:  
 ```shell
-sudo gem install jekyll bundler
-
+>sudo gem install jekyll bundler
 Fetching: safe_yaml-1.0.4.gem (100%)
 ERROR:  While executing gem ... (Errno::EPERM)
     Operation not permitted - /usr/bin/safe_yaml
@@ -16,5 +15,5 @@ ERROR:  While executing gem ... (Errno::EPERM)
   
 A quick solution is using *-n* option to install on a different position:  
 ```shell
-sudo gem install jekyll bundler -n /usr/local/bin
+>sudo gem install jekyll bundler -n /usr/local/bin
 ```
