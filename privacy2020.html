@@ -1,73 +1,48 @@
-﻿<!DOCTYPE HTML><html><head><style id="wiz_custom_css">html, .wiz-editor-body {font-size: 12pt;}.wiz-editor-body {font-family: Helvetica, "Hiragino Sans GB", "微软雅黑", "Microsoft YaHei UI", SimSun, SimHei, arial, sans-serif;line-height: 1.7;margin: 0 auto;position:relative;padding: 20px 16px;}.wiz-editor-body h1,.wiz-editor-body h2,.wiz-editor-body h3,.wiz-editor-body h4,.wiz-editor-body h5,.wiz-editor-body h6 {margin:20px 0 10px;margin:1.25rem 0 0.625rem;padding: 0;font-weight: bold;}.wiz-editor-body h1 {font-size:20pt;font-size:1.67rem;}.wiz-editor-body h2 {font-size:18pt;font-size:1.5rem;}.wiz-editor-body h3 {font-size:15pt;font-size:1.25rem;}.wiz-editor-body h4 {font-size:14pt;font-size:1.17rem;}.wiz-editor-body h5 {font-size:12pt;font-size:1rem;}.wiz-editor-body h6 {font-size:12pt;font-size:1rem;color: #777777;margin: 1rem 0;}.wiz-editor-body div,.wiz-editor-body p,.wiz-editor-body ul,.wiz-editor-body ol,.wiz-editor-body dl,.wiz-editor-body li {margin:8px 0 0;}.wiz-editor-body blockquote,.wiz-editor-body table,.wiz-editor-body pre,.wiz-editor-body code {margin:8px 0;}.wiz-editor-body .CodeMirror pre {margin:0;}.wiz-editor-body a {word-wrap: break-word;text-decoration-skip-ink: none;}.wiz-editor-body ul,.wiz-editor-body ol {padding-left:32px;padding-left:2rem;}.wiz-editor-body ol.wiz-list-level1 > li {list-style-type:decimal;}.wiz-editor-body ol.wiz-list-level2 > li {list-style-type:lower-latin;}.wiz-editor-body ol.wiz-list-level3 > li {list-style-type:lower-roman;}.wiz-editor-body li.wiz-list-align-style {list-style-position: inside; margin-left: -1em;}.wiz-editor-body blockquote {padding: 0 12px;}.wiz-editor-body blockquote > :first-child {margin-top:0;}.wiz-editor-body blockquote > :last-child {margin-bottom:0;}.wiz-editor-body img {border:0;max-width:100%;height:auto !important;margin:2px 0;padding: 2px;vertical-align:bottom;}.wiz-editor-body table {border-collapse:collapse;border:1px solid #a7afbc;}.wiz-editor-body td,.wiz-editor-body th {padding:4px 8px;border-collapse:collapse;border:1px solid #a7afbc;min-height:28px;word-break:break-word;box-sizing: border-box;}.wiz-editor-body td > div:first-child {margin-top:0;}.wiz-editor-body td > div:last-child {margin-bottom:0;}.wiz-editor-body img.wiz-svg-image {box-shadow:1px 1px 4px #E8E8E8;}.wiz-editor-body .wiz-image-container {margin:0;max-width: 100%;display: inline-flex;flex-direction: column;}.wiz-editor-body .wiz-image-container .wiz-image-title {display:inline-block;text-align: center;color: #a7afbc;line-height: 18px;font-size: 12px;min-height: 18px;width: 100%;white-space: normal;}.wiz-hide {display:none !important;}.wiz-editor-body.wiz-editor-outline {padding-right:0; padding-left:0;}.wiz-editor-body.wiz-editor-outline .outline-container {margin:0; padding:0; line-height:1.5;}.wiz-editor-body.wiz-editor-outline .outline-container div {margin:0;}.wiz-editor-body.wiz-editor-outline .node {margin:0; padding: 0;}.wiz-editor-body.wiz-editor-outline .outline-container > .node {margin-right:24px; margin-left:30px;}.wiz-editor-body.wiz-editor-outline .node.collapsed .children {display:none;}.wiz-editor-body.wiz-editor-outline .node .row {position:relative; padding-left:26px;}.wiz-editor-body.wiz-editor-outline .node .operator-container {width:36px;position:absolute; top:4px; left:-18px;}.wiz-editor-body.wiz-editor-outline .node .operator-bar {position:absolute; top:0; left:0; right:0; bottom:0; display:flex; align-items:center; justify-content:center;}.wiz-editor-body.wiz-editor-outline .node .switch {width:18px; height:18px;display:flex;flex-direction: column;align-items: center;overflow: hidden;}.wiz-editor-body.wiz-editor-outline .node .switch i {font-size:20px;position:relative;left:-1px;top:-1px;}.wiz-editor-body.wiz-editor-outline .node .switch.active {cursor:pointer;color:transparent; transition:transform 200ms ease 0s;}.wiz-editor-body.wiz-editor-outline .node.collapsed .switch.active {transform:rotateZ(-90deg);}.wiz-editor-body.wiz-editor-outline .node .row:hover .switch.active {color:#505F79}.wiz-editor-body.wiz-editor-outline .node .dot {display:flex; align-items:center; justify-content:center; border-radius:100%; width:18px; height:18px;}.wiz-editor-body.wiz-editor-outline .node.collapsed .dot {background-color:rgba(80, 95, 121, .15);}.wiz-editor-body.wiz-editor-outline .node .dot-icon {background-color:#505F79; border-radius:100%; width:6px; height:6px;}.wiz-editor-body.wiz-editor-outline .node .child {margin-left:8px; border-left:1px solid #E6E9ED; padding-left:17px;}.wiz-editor-body.wiz-editor-outline .node .content {flex:1;outline:none; padding:4px 0;}.wiz-editor-body.wiz-editor-outline .node div.content {font-size:1rem;}.wiz-editor-body.wiz-editor-outline .node.complete > .row .content {text-decoration:line-through;color:#A7AFBC;}.wiz-editor-body.wiz-editor-outline .node .notes {outline:none; font-size:.8rem; color:#A7AFBC;}.wiz-editor-body.wiz-editor-outline .node .image {outline:none; padding-top:4px; padding-bottom:4px;}.wiz-editor-body.wiz-editor-outline .outline-container h1,.wiz-editor-body.wiz-editor-outline .outline-container h2,.wiz-editor-body.wiz-editor-outline .outline-container h3,.wiz-editor-body.wiz-editor-outline .outline-container h4,.wiz-editor-body.wiz-editor-outline .outline-container h5,.wiz-editor-body.wiz-editor-outline .outline-container h6 {margin:0;}
-
-html, .wiz-editor-body {
-  font-family:'Helvetica Neue';
-  font-size:15px;
-  background-color:#FFFFFF;
-  line-height:1.7;
-  color: #000000;
-} 
-body.wiz-editor-body div, body.wiz-editor-body p, body.wiz-editor-body ul, body.wiz-editor-body ol, body.wiz-editor-body dl, body.wiz-editor-body li {
-  margin-top:8px; margin-bottom:8px
+<html><head><style>body {
+   color: black;
 }
-body, .wiz-editor-body {
-  padding-top: 8px !important;
-  padding-left: 48px;
-  padding-right: 48px;
-}
-</style><link rel="stylesheet" charset="utf-8" name="wiz_tmp_editor_style" href="/Applications/WizNote.app/Contents/Resources/files/wizeditor/dependency/fonts.css?v=1.0.60.17" id="wiz_/Applications/WizNote.app/Contents/Resources/files/wizeditor/dependency/fonts.css?v=1.0.60.17"><style name="wiz_tmp_editor_style" id="wiz_tmp_style_editor_common">html {height:100%;} body, .wiz-editor-body {-webkit-tap-highlight-color:rgba(255,255,255,0);}.wiz-editor-body {min-height:100%;box-sizing:border-box;word-wrap: break-word !important;outline:none;}.wiz-editor-body img::selection {background-color: rgba(0, 0, 255, 0.3);}.wiz-editor-body input:disabled, .wiz-editor-body textarea:disabled {opacity: 1;}a {cursor:pointer;}.wiz-editor-body .wiz-float-layer {background: #fff;color:#172b4d;box-shadow:0px 3px 8px 0px rgba(0, 0, 0, 0.2);border:1px solid #e7e7e7;border-radius:4px;max-width:none;}::-ms-clear,::-ms-reveal{display:none;}wiz_tmp_tag {line-height: 1.7;}.wiz-editor-body .wiz-table-container {border:0px !important;margin-top:0;margin-bottom:20px;}.wiz-editor-body .wiz-table-body {border:0px !important;position:relative;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;outline:none;margin-top:0;padding: 28px 0px 5px 0px;}.wiz-editor-body .wiz-table-body table {margin:0;outline:none;}.wiz-editor-body td,.wiz-editor-body th {outline:none;}.wiz-editor-body .wiz-select-plugin-container {position:relative;display:inline-block;width:160px;height:28px;padding:0;margin-left:5px;cursor:pointer;}.wiz-editor-body .wiz-select-plugin-container.icon {width:28px;}.wiz-editor-body .wiz-menu-plugin-container div,.wiz-editor-body .wiz-select-plugin-container div {margin-top:0;margin-bottom:0;}.wiz-editor-body .wiz-select-plugin-container, .wiz-editor-body .wiz-menu-plugin-options {box-sizing:border-box;}.wiz-editor-body .wiz-select-plugin-header {line-height:28px;font-size:14px;padding: 0 0 0 5px;overflow:hidden;margin-right:27px;white-space:nowrap;}.wiz-editor-body .wiz-select-plugin-header i {position:absolute;top:0;right:0;line-height:26px;padding:0;text-align:center;min-width:27px;border-left:1px solid #e7e7e7;box-sizing:border-box;}.wiz-editor-body .wiz-select-plugin-header i.icon-more {font-size:16px;border:0;width:100%;height:100%}.wiz-editor-body .wiz-menu-plugin-options {display:none;list-style:none;padding:8px 0;margin:0;white-space:nowrap;min-width:160px;max-width:260px;overflow-x:hidden;overflow-y:auto;position:absolute;z-index:999999;}.wiz-editor-body .wiz-menu-plugin-options-item {cursor:pointer;font-size:14px;padding:6px 20px;line-height:normal;margin: 0px !important;}.wiz-editor-body .wiz-menu-plugin-options-item.disabled {color:#a7afbc;cursor:default;}.wiz-editor-body .wiz-menu-plugin-options-item.selected {background:#f4f6f9;}.wiz-editor-body .wiz-menu-plugin-options-item:hover {background:#f4f6f9 !important;}.wiz-editor-body .wiz-menu-plugin-options-item.disabled:hover {background:transparent !important;}.wiz-editor-body .wiz-menu-plugin-options-item .icon-checkmark {visibility: hidden;}.wiz-editor-body .wiz-menu-plugin-options-item .icon-checkmark.active {visibility: visible;}.wiz-editor-body .wiz-menu-plugin-options-item .hotkey-layer {min-width:160px;display:flex;align-items:center;justify-content:space-between;}.wiz-editor-body .wiz-menu-plugin-options-item .hotkey-layer .hotkey {color:#A7AFBC;}.wiz-editor-body .wiz-menu-plugin-container.active .wiz-menu-plugin-options {display:block;}.wiz-editor-body .wiz-menu-plugin-container.wiz-select-plugin-menu .wiz-menu-plugin-options {max-height:250px;}.wiz-editor-body .wiz-code-container-paste textarea {visibility: hidden;}.wiz-editor-body div.wiz-img-resize-handle {position: absolute;z-index: 1000;width: 18px;height: 18px;border-radius: 9px;line-height: 18px;text-align: center;margin: 0;font-size: 18px;transform: translate(-50%, -50%);background-color: #448aff !important; color: #fff !important;}.wiz-img-resize-handle.lt {cursor: nw-resize;}.wiz-img-resize-handle.tm {cursor: n-resize;}.wiz-img-resize-handle.rt {cursor: ne-resize;}.wiz-img-resize-handle.lm {cursor: w-resize;}.wiz-img-resize-handle.rm {cursor: e-resize;}.wiz-img-resize-handle.lb {cursor: sw-resize;}.wiz-img-resize-handle.bm {cursor: s-resize;}.wiz-img-resize-handle.rb {cursor: se-resize;}.wiz-editor-body img.wiz-img-resize-active {border: 2px solid #448aff;padding: 0;}.wiz-img-upload-container {width: 400px;height: 300px;background-color: #d6d9dd;display: flex;flex-direction: column;align-items: center;justify-content: center;font-size: 14px;}.wiz-img-upload-container.error {flex-direction: row;}wiz-editor-body .wiz-img-upload-container div {margin: 0;}.wiz-img-upload-container .wiz-img-upload-progress {color: #fff;font-weight: normal; margin-bottom: 15px}.wiz-img-upload-container.error .wiz-img-upload-progress {color: #505f79; margin: 0;}.wiz-img-upload-container .wiz-img-cancel-upload-btn {color: #505f79;line-height: 30px; width: 70px;cursor: pointer;background-color: transparent;border: none;outline: none; font-size: 14px;}.wiz-img-upload-container.error .wiz-img-cancel-upload-btn {color: #448aff}#wiz-img-menu-container {position: absolute; z-index: 400;}.wiz-editor-body #wiz-img-menu-container div,.wiz-editor-body #wiz-img-menu-container ul,.wiz-editor-body #wiz-img-menu-container li {margin: 0;}#wiz-img-menu-container .wiz-img-menu {display: flex;height: 32px;background-color: #fff !important;opacity: 0.98;}#wiz-img-menu-container .wiz-img-menu .icon-button{background-color: transparent !important;display:flex;justify-items:center;width:44px;height:32px;line-height:32px;border: none;outline:none;font-size: 14px;padding:0 0 0 10px;cursor: pointer;border-radius: 4px;}#wiz-img-menu-container .wiz-img-menu .icon-button i{align-self:center;color: #172b4d !important;background-color: transparent !important;}#wiz-img-menu-container .wiz-img-menu .icon-button .icon-rotation_right {font-size: 18px;}#wiz-img-menu-container .wiz-img-sub-menu-container {position: relative;background-color: transparent !important;}#wiz-img-menu-container .wiz-img-sub-menu-container .wiz-img-sub-menu {position: absolute; top: 40px;list-style-type: none; padding: 8px 0;opacity: 0.98;display:none;}#wiz-img-menu-container .wiz-img-sub-menu-container .wiz-img-sub-menu .wiz-img-sub-menu-item {padding: 0 15px;font-size: 14px;height: 32px;line-height: 32px;cursor: pointer;white-space: nowrap;color:#172b4d;}#wiz-img-menu-container .wiz-img-sub-menu-container .wiz-img-sub-menu .wiz-img-sub-menu-item:hover {background-color: #e8f2ff;}#wiz-img-menu-container .wiz-img-sub-menu-container .wiz-img-sub-menu .wiz-img-sub-menu-item.is-del {color: #ef403a !important;}.wiz-editor-body .wiz-tooltip i.editor-icon {top:0;}.wiz-editor-body .wiz-tooltip {display: none;margin: 10px 0 0;position: absolute;top: 13px;left:-9px;min-width: 135px;padding: 5px 0;max-width: none;z-index: 400;transform: translate(-15px, -15px);}.wiz-editor-body .wiz-tooltip ul {margin: 0; padding: 0;}.wiz-editor-body .wiz-tooltip.wiz-table-sub-menu {min-width: 84px;}.wiz-editor-body .wiz-tooltip.active {display:block;}.wiz-editor-body .wiz-tooltip > div {font-size:15px;min-width:80px;}.wiz-editor-body .wiz-tooltip div {margin:0;}.wiz-editor-body .wiz-tooltip .wiz-tooltip-arrow-bg,.wiz-editor-body .wiz-tooltip .wiz-tooltip-arrow {position: absolute;border-style: solid;border-color: transparent;border-bottom-color: #cccccc;left: 22px;margin-left: -14px;top: -8px;border-width: 0 8px 8px 8px;z-index:10;}.wiz-editor-body .wiz-tooltip .wiz-tooltip-arrow {border-bottom-color: #ffffff;top: -7px;}.wiz-editor-body .wiz-tooltip.top .wiz-tooltip-arrow-bg {top: auto;bottom: -8px;transform:rotate(180deg);}.wiz-editor-body .wiz-tooltip.top .wiz-tooltip-arrow {top: auto;bottom: -7px;transform:rotate(180deg);}.wiz-editor-body .wiz-tooltip-item {margin:0;padding: 4px 12px;font-size: 14px;display: flex;justify-content: space-between; align-items: center;position: relative;cursor: pointer;color: #172b4d;}.wiz-editor-body .wiz-tooltip-item span {white-space: nowrap;}.wiz-editor-body .wiz-tooltip-item.has-sub-menu:hover .wiz-table-sub-menu.wiz-tooltip {display: block;}.wiz-editor-body .wiz-table-sub-menu .wiz-tooltip-item {justify-content: flex-start;}.wiz-editor-body .wiz-tooltip-item.split {padding-top: 8px; padding-bottom: 8px;}.wiz-editor-body .wiz-tooltip-item.split::before {width: calc(100% - 24px); height: 1px;background-color: #e6e9ed;content: '';position: absolute; left: 50%;transform: translateX(-50%); top: 0;}.wiz-editor-body .wiz-tooltip-item.split::after {width: calc(100% - 24px); height: 1px;background-color: #e6e9ed;content: '';position: absolute; left: 50%;transform: translateX(-50%); bottom: 0;}.wiz-editor-body .wiz-tooltip-item:hover {background-color: #ececec;}.wiz-editor-body .wiz-tooltip-item.disabled {color: #bbbbbb;cursor: default;}.wiz-editor-body .wiz-tooltip-item.disabled:hover {background-color: transparent;}.wiz-editor-body .wiz-tooltip-item .wiz-table-sub-menu {position: absolute;right: 0;top: 0; left: auto;transform: translateX(100%);}.wiz-editing .wiz-table-body.wiz-table-moving *, .wiz-editing .wiz-table-body.wiz-table-moving *:before, .wiz-editing .wiz-table-body.wiz-table-moving *:after {cursor:default !important;} .wiz-editing.wiz-editor-body td, .wiz-editing.wiz-editor-body th {position:relative;}#wiz-table-range-border {display: none;width: 0;height: 0;position: absolute;top: 0;left: 0; z-index:105}#wiz-table-col-line, #wiz-table-row-line {margin:0;display: none;background-color: #448aff;position: absolute;z-index:120;}#wiz-table-col-line {width: 1px;cursor:col-resize;}#wiz-table-row-line {height: 1px;cursor:row-resize;}#wiz-table-range-border_start, #wiz-table-range-border_range {display: none;width: 0;height: 0;margin: 0;position: absolute;}#wiz-table-range-border_start div, #wiz-table-range-border_range div {margin: 0;}#wiz-table-range-border_start_top, #wiz-table-range-border_range_top {height: 2px;background-color: #448aff;position: absolute;top: 0;left: 0;}#wiz-table-range-border_range_top {height: 1px;}#wiz-table-range-border_start_right, #wiz-table-range-border_range_right {width: 2px;background-color: #448aff;position: absolute;top: 0;}#wiz-table-range-border_range_right {width: 1px;}#wiz-table-range-border_start_bottom, #wiz-table-range-border_range_bottom {height: 2px;background-color: #448aff;position: absolute;top: 0;}#wiz-table-range-border_range_bottom {height: 1px;}#wiz-table-range-border_start_left, #wiz-table-range-border_range_left {width: 2px;background-color: #448aff;position: absolute;top: 0;left: 0;}#wiz-table-range-border_range_left {width: 1px;}#wiz-table-range-border_start_dot, #wiz-table-range-border_range_dot {width: 5px;height: 5px;border: 2px solid rgb(255, 255, 255);background-color: #448aff;cursor: crosshair;position: absolute;z-index:110;}.wiz-table-bar {position: absolute;left: 0;top: 1px; margin: 0;display: flex;flex-direction: column;transform: translateX(-100%);z-index:106}.wiz-editor-body .wiz-table-bar div {margin: 0;}.wiz-table-bar-box {background-color: #f4f6f9;cursor: pointer;position: absolute;}.wiz-table-bar-box:hover {background-color: #d6d9dd;}.wiz-table-bar-box.active {background-color: #448aff;opacity: 0.3;}.wiz-table-bar-point {width: 24px; height: 24px; cursor: pointer; position: absolute;z-index: 2;}.wiz-table-bar-point::after {width: 4px; height: 4px; background-color: #d6d9dd; position: absolute;transform: translate(-50%, -50%);content: '';border-radius: 4px;}.wiz-table-bar-point.cols,.wiz-table-col-bar .wiz-table-bar-point {right: 0;bottom: 16px;transform: translateX(50%);}.wiz-table-bar-point.cols::after,.wiz-table-col-bar .wiz-table-bar-point::after {left: 50%; top: 75%;}.wiz-table-bar-point.rows,.wiz-table-bar .wiz-table-row-bar .wiz-table-bar-point {bottom: 0;right: 15px;transform: translateY(50%);}.wiz-table-bar-point.rows::after,.wiz-table-bar .wiz-table-row-bar .wiz-table-bar-point::after {left: 75%; top: 50%}.wiz-table-bar .wiz-table-add-btn {width: 22px; height: 22px; border-radius: 11px 11px 2px 11px; position: absolute;border: none;background-color: #448aff !important;display: none;outline: none;cursor: pointer;z-index: 2;}.wiz-table-bar .wiz-table-add-btn::before {content: '';width: 10px; height: 2px; background-color: #fff;position: absolute;left: 50%; top: 50%; transform: translate(-50%, -50%) rotate(45deg);}.wiz-table-bar .wiz-table-add-btn::after {content: '';width: 2px; height: 10px; background-color: #fff;position: absolute;left: 50%; top: 50%; transform: translate(-50%, -50%) rotate(45deg);}.wiz-table-bar .wiz-table-all-bar {width: 28px;height: 28px;position: relative;}.wiz-table-bar .wiz-table-all-bar .wiz-table-bar-box {border-radius: 4px 0px 0px 0px;width: 17px;height: 17px; bottom: 0; right: 0;}.wiz-table-add-tip-line{display: none;position: absolute; background-color: #448aff !important;}.bar-box-shadow{background-image: linear-gradient(90deg,rgba(38,38,38,.15),rgba(38,38,38,0));opacity: 0;transition: opacity .15s;position: absolute;top:  28px;bottom: 0;right: 0;transform: translateX(100%); width: 8px;}.wiz-table-bar .wiz-table-row-bar {width: 28px; display: flex;flex-direction: column;}.wiz-editor-body .wiz-table-col-bar {position: absolute;height: 28px;top: 0;left: 1px;display: flex;margin: 0;}.wiz-editor-body .wiz-table-col-bar div {margin: 0;}.wiz-table-localtion-bar-block {width: 100%;height: 100%;position: relative;}.wiz-table-bar .wiz-table-row-bar .wiz-table-bar-box {width: 16px;height: 100%;bottom: 0; right: 0;}.wiz-table-col-bar .wiz-table-bar-box {width: 100%;height: 16px;bottom: 0; right: 0;}.wiz-table-bar .wiz-table-row-bar .wiz-table-localtion-bar-block .wiz-table-bar-box {border-top: 1px solid #d6d9dd;}.wiz-table-bar .wiz-table-row-bar .wiz-table-localtion-bar-block:nth-last-of-type(1) .wiz-table-bar-box {border-radius: 0px 0px 0px 4px;}.wiz-table-col-bar .wiz-table-localtion-bar-block .wiz-table-bar-box {border-left: 1px solid #d6d9dd;}.wiz-table-col-bar .wiz-table-localtion-bar-block:nth-last-of-type(1) .wiz-table-bar-box {border-radius: 0px 4px 0px 0px;}.wiz-editor-body .wiz-table-tools {display: none;position: absolute;left: 0px;transform: translate(-75%, -25%);z-index:130;margin: 0;}.wiz-table-tools ul {margin:0 !important;}.wiz-table-tools ul {list-style: none !important;padding: 0;width:auto;}.wiz-table-delete-zone {position: absolute; background-color: #ffb7be;border: 2px solid #ef403a;box-sizing: border-box; display: none;z-index: -10;}.wiz-tooltip i.editor-icon{font-size: 15px;color: #455a64; position: absolute;top: 0px;left: 0;z-index:1}.wiz-tooltip i.editor-icon.list-icon{position: static;transform: rotate(-90deg);margin-left: 10px;}.wiz-table-sub-menu i.editor-icon.list-icon.position-icon{border: 1px solid #455a64;transform: none;color: #a7afbc;padding-left: 1px;}.wiz-table-sub-menu i.editor-icon.list-icon{transform: translateY(-25%);margin-left: 0;margin-right: 10px;}.wiz-tooltip-color-box i.editor-icon.color-box{position: static;margin-left: 10px;border: 1px solid #455a64; width: 15px; height: 15px; display: block;}.wiz-tooltip-color-box i.editor-icon.color-box.no-color{color: #cc0000;}.wiz-editor-body .wiz-tooltip.wiz-table-color-pad {padding: 10px;box-sizing: border-box;min-width: 85px;width: 85px;height: 88px;cursor: default;}.wiz-table-tools .wiz-table-menu-button {background-color: #e6e9ed; width: 20px; height: 20px;border-radius: 2px; border: 1px solid #ddd;text-align:center;line-height: 18px;padding: 0; outline: none;color: #505f79;font-size: 24px;cursor: pointer;}.wiz-table-tools .wiz-table-menu-button::before {transform: translateX(-3px);display: block;}.wiz-table-color-pad > div{font-size:15px;}.wiz-editor-body .wiz-tooltip .wiz-table-color-pad .wiz-table-color-pad-item {display: inline-block;width: 16px;height: 16px;margin-right: 9px;position: relative;cursor:pointer;}.wiz-table-color-pad .wiz-table-color-pad-item .icon-oblique_line{color: #cc0000;font-size: 16px;}.wiz-table-color-pad .wiz-table-color-pad-item:last-child {margin-right: 0;}.wiz-table-color-pad .wiz-table-color-pad-item.active i.editor-icon.icon-box {color: #448aff;}.wiz-table-color-pad .wiz-table-color-pad-item .color-block-icon {width: 14px; height: 14px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}.wiz-table-color-pad .wiz-table-color-pad-item .icon-border {width: 14px;margin: 0;height: 14px; border: 1px solid #a7afbc; border-radius: 2px;position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}.wiz-table-color-pad .wiz-table-color-pad-item.active .icon-border {border: 2px solid #448aff;}.wiz-table-cell-align {display: none;padding: 10px;box-sizing: border-box;min-width: 85px;height: 65px;background-color: #fff;cursor: default;}.wiz-table-cell-align .wiz-table-cell-align-item {display: inline-block;width: 15px;height: 15px;margin-right: 9px;position: relative;}.wiz-table-cell-align .wiz-table-cell-align-item[data-align-type=align] {margin-right:8px}.wiz-table-cell-align .wiz-table-cell-align-item:last-child {margin-right:0}.wiz-table-cell-align .wiz-table-cell-align-item i.valign{color: #d2d2d2;}.wiz-table-cell-align-item i.editor-icon.align {font-size:17px;}.wiz-table-cell-align-item.active i.editor-icon.valign {color: #a1c4ff;}.wiz-table-cell-align-item.active i.editor-icon.icon-box,.wiz-table-cell-align-item.active i.editor-icon.align {color: #448aff;}.wiz-table-color-pad .wiz-table-color-pad-item:last-child,.wiz-table-cell-align .wiz-table-cell-align-item:last-child {margin-right: 0;}.wiz-editing.wiz-editor-body th.wiz-selected-cell-multi,.wiz-editing.wiz-editor-body td.wiz-selected-cell-multi {background: rgba(0,102,255,.05);}.wiz-editing.wiz-editor-body th:before,.wiz-editing.wiz-editor-body td:before,#wiz-table-col-line:before,#wiz-table-range-border_start_right:before,#wiz-table-range-border_range_right:before {content: " ";position: absolute;top: 0;bottom: 0;right: -5px;width: 9px;cursor: col-resize;background: transparent;z-index:100;}.wiz-editing.wiz-editor-body th:after,.wiz-editing.wiz-editor-body td:after,#wiz-table-row-line:before,#wiz-table-range-border_start_bottom:before,#wiz-table-range-border_range_bottom:before {content: " ";position: absolute;left: 0;right: 0;bottom: -5px;height: 9px;cursor: row-resize;background: transparent;z-index:100;}.wiz-editing.wiz-editor-body tr:last-child th:after,.wiz-editing.wiz-editor-body tr:last-child td:after,#wiz-table-row-line:before,#wiz-table-range-border_start_bottom:before,#wiz-table-range-border_range_bottom:before {bottom: 0px;height: 4px;}</style><style name="wiz_tmp_editor_style" id="wiz_tmp_style_editor_block_scroll">.wiz-block-scroll::-webkit-scrollbar {width: 7px;height: 7px;}.wiz-block-scroll::-webkit-scrollbar-thumb {background-color: #7f7f7f;border-radius: 7px;}.wiz-block-scroll::-webkit-scrollbar-button {display: none;}</style><style name="wiz_tmp_editor_style" id="wiz-tmp-bottom-style">.wiz-editing.wiz-editor-body {margin-bottom: 99px;}</style><style name="wiz_tmp_editor_style" id="wiz_tmp_style_reader_common">html {height:100%;} body, .wiz-editor-body {-webkit-tap-highlight-color:rgba(255,255,255,0);}.wiz-editor-body {min-height:100%;box-sizing:border-box;word-wrap: break-word !important;outline:none;}.wiz-editor-body img::selection {background-color: rgba(0, 0, 255, 0.3);}.wiz-editor-body input:disabled, .wiz-editor-body textarea:disabled {opacity: 1;}a {cursor:pointer;}.wiz-editor-body .wiz-float-layer {background: #fff;color:#172b4d;box-shadow:0px 3px 8px 0px rgba(0, 0, 0, 0.2);border:1px solid #e7e7e7;border-radius:4px;max-width:none;}::-ms-clear,::-ms-reveal{display:none;}wiz_tmp_tag {line-height: 1.7;}.wiz-editor-body .wiz-table-container {border:0px !important;margin-top:0;margin-bottom:20px;}.wiz-editor-body .wiz-table-body {border:0px !important;position:relative;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;outline:none;margin-top:0;padding: 28px 0px 5px 0px;}.wiz-editor-body .wiz-table-body table {margin:0;outline:none;}.wiz-editor-body td,.wiz-editor-body th {outline:none;}.wiz-editor-body .wiz-select-plugin-container {position:relative;display:inline-block;width:160px;height:28px;padding:0;margin-left:5px;cursor:pointer;}.wiz-editor-body .wiz-select-plugin-container.icon {width:28px;}.wiz-editor-body .wiz-menu-plugin-container div,.wiz-editor-body .wiz-select-plugin-container div {margin-top:0;margin-bottom:0;}.wiz-editor-body .wiz-select-plugin-container, .wiz-editor-body .wiz-menu-plugin-options {box-sizing:border-box;}.wiz-editor-body .wiz-select-plugin-header {line-height:28px;font-size:14px;padding: 0 0 0 5px;overflow:hidden;margin-right:27px;white-space:nowrap;}.wiz-editor-body .wiz-select-plugin-header i {position:absolute;top:0;right:0;line-height:26px;padding:0;text-align:center;min-width:27px;border-left:1px solid #e7e7e7;box-sizing:border-box;}.wiz-editor-body .wiz-select-plugin-header i.icon-more {font-size:16px;border:0;width:100%;height:100%}.wiz-editor-body .wiz-menu-plugin-options {display:none;list-style:none;padding:8px 0;margin:0;white-space:nowrap;min-width:160px;max-width:260px;overflow-x:hidden;overflow-y:auto;position:absolute;z-index:999999;}.wiz-editor-body .wiz-menu-plugin-options-item {cursor:pointer;font-size:14px;padding:6px 20px;line-height:normal;margin: 0px !important;}.wiz-editor-body .wiz-menu-plugin-options-item.disabled {color:#a7afbc;cursor:default;}.wiz-editor-body .wiz-menu-plugin-options-item.selected {background:#f4f6f9;}.wiz-editor-body .wiz-menu-plugin-options-item:hover {background:#f4f6f9 !important;}.wiz-editor-body .wiz-menu-plugin-options-item.disabled:hover {background:transparent !important;}.wiz-editor-body .wiz-menu-plugin-options-item .icon-checkmark {visibility: hidden;}.wiz-editor-body .wiz-menu-plugin-options-item .icon-checkmark.active {visibility: visible;}.wiz-editor-body .wiz-menu-plugin-options-item .hotkey-layer {min-width:160px;display:flex;align-items:center;justify-content:space-between;}.wiz-editor-body .wiz-menu-plugin-options-item .hotkey-layer .hotkey {color:#A7AFBC;}.wiz-editor-body .wiz-menu-plugin-container.active .wiz-menu-plugin-options {display:block;}.wiz-editor-body .wiz-menu-plugin-container.wiz-select-plugin-menu .wiz-menu-plugin-options {max-height:250px;}</style><style name="wiz_tmp_editor_style" id="wiz_tmp_style_reader_block_scroll">.wiz-block-scroll::-webkit-scrollbar {width: 7px;height: 7px;}.wiz-block-scroll::-webkit-scrollbar-thumb {background-color: #7f7f7f;border-radius: 7px;}.wiz-block-scroll::-webkit-scrollbar-button {display: none;}</style><link rel="stylesheet" charset="utf-8" name="wiz_tmp_editor_style" href="/Applications/WizNote.app/Contents/Resources/files/wizeditor/dependency/github2.css?v=1.0.60.17" id="wiz_/Applications/WizNote.app/Contents/Resources/files/wizeditor/dependency/github2.css?v=1.0.60.17"><link rel="stylesheet" charset="utf-8" name="wiz_tmp_editor_style" href="/Applications/WizNote.app/Contents/Resources/files/wizeditor/dependency/wizToc.css?v=1.0.60.17" id="wiz_/Applications/WizNote.app/Contents/Resources/files/wizeditor/dependency/wizToc.css?v=1.0.60.17"><style name="wiz_tmp_editor_style" id="wiz_tmp_style_code_common">.wiz-code-tools {display:none; align-items: center;position: absolute; top: -32px; right: 0; opacity: .95; z-index: 110;}.wiz-editor-body .wiz-code-container .wiz-code-tools {opacity:0;display:flex;transition: opacity 500ms;}.wiz-editor-body .wiz-code-container:hover .wiz-code-tools {opacity:1; }.wiz-editor-body .wiz-code-tools .wiz-code-tools-info {background: rgba(255, 255, 255, 0.4);font-size: 14px;padding: 2px 20px;position: absolute;right: 5px;top: 36px;border-radius: 4px;white-space: nowrap;opacity:0;transition: opacity 200ms;}.wiz-editor-body .wiz-code-tools.active .wiz-code-tools-info {opacity:1;}.wiz-editing .CodeMirror-show-tools .wiz-code-tools {z-index: 220;}.wiz-readonly .wiz-code-tools.mobile,.wiz-editing .CodeMirror-show-tools .wiz-code-tools,.wiz-editing .CodeMirror-focused .wiz-code-tools {opacity:1; display: flex;}.CodeMirror-sizer {border-right: 0 !important;}.wiz-editor-body pre.prettyprint {padding:0;}.wiz-editor-body pre.prettyprint code {white-space: pre-wrap;}.wiz-editor-body pre.prettyprint.linenums {box-shadow:none; overflow: auto;-webkit-overflow-scrolling: touch;}.wiz-editor-body pre.prettyprint.linenums ol.linenums {box-shadow: 40px 0 0 #FBFBFC inset, 41px 0 0 #ECECF0 inset; padding: 10px 10px 10px 44px !important;margin:0;font-size:0.875rem;}.wiz-editing .CodeMirror-activeline-background {display: none;}.wiz-editing .CodeMirror-focused .CodeMirror-activeline-background {display: block;}</style><style name="wiz_tmp_editor_style" id="wiz_tmp_style_code_reader">.wiz-readonly .CodeMirror-cursors {visibility: hidden !important;}</style></head><body class="wiz-editor-body wiz-readonly markdown-body" data-wiz-document-type="common" spellcheck="false" contenteditable="false" style="opacity: 1;"><h1 id="wiz-toc-0-1011990812">Privacy policy</h1>
-
+</style></head><body><h1 id="privacy-policy">Privacy policy</h1>
 <blockquote>
-  <p>Last updated , October 12th 2020</p>
+<p>Last updated , October 12th 2020</p>
 </blockquote>
-
-<p>Anhui Weiyou Interactive Entertainment Technology Co., Ltd. ("Weiyou") is an international entertainment company specialized in the mobile environment. We create and publish free mobile games and applications that aim to entertain, inform and connect people by leveraging global creative power.</p>
-
+<p>Anhui Weiyou Interactive Entertainment Technology Co., Ltd. (&quot;Weiyou&quot;) is an international entertainment company specialized in the mobile environment. We create and publish free mobile games and applications that aim to entertain, inform and connect people by leveraging global creative power.</p>
 <p>The purpose of this policy is to provide you with all the important information and explanations about how and why some of your data may be collected and processed by Weiyou when you use one of our applications or browse on our website. This privacy policy governs and details the main principles that Weiyou applies to the data we collect and process to:</p>
-
 <ul>
 <li>(i) develop and publish mobile apps (“Weiyou Apps and Games”),</li>
 <li>(ii) serve advertising that are tailored to the interests of users (“Weiyou Ads”) and</li>
 <li>(iii) run our corporate website (“minigame.vip”).</li>
 </ul>
-
 <p>This policy also aims to remind you about your rights and to provide you with all the elements you need to exercise them.</p>
-
 <p>Should you have any questions related to this policy or our practices around privacy and data protection in general, please don’t hesitate to contact Weiyou Data Protection Officer as indicated in the contact section of this policy. </p>
-
-<h2 id="wiz-toc-1-1413973630">Weiyou apps and games</h2>
-
-<h3 id="wiz-toc-2-37047056">Why does Weiyou collect data from its apps and games?</h3>
-
+<h2 id="weiyou-apps-and-games">Weiyou apps and games</h2>
+<h3 id="why-does-weiyou-collect-data-from-its-apps-and-games-">Why does Weiyou collect data from its apps and games?</h3>
 <p>When you install and use Weiyou mobile applications, we can collect and process some of your data for different legitimate purposes.</p>
-
 <p>You will find below explanations regarding the reasons why Weiyou may collect data and the legal bases Weiyou relies on in each case. </p>
-
 <p>Weiyoucollects data: </p>
-
 <ul>
-<li><span>To provide you with the services you asked for <br>
-(e.g., knowing that you completed the first level to allow access to the second one)</span><br>
-
-<ul><li>Legal basis – such data processing is strictly necessary for the service(s) asked</li></ul></li>
-<li><span>To run analytics and understand how users interact with our product and services in order to continuously improve it <br>
-(e.g. identifying that a feature is annoying for users or that a level is too difficult for most gamers)</span><br>
-
-<ul><li>Legal basis - Express consent. Weiyou only processes or shares personal data collected through Weiyou apps for analytics purposes once you express your consent through the pop-up notice included in our apps.</li></ul></li>
-<li><span>To serve advertising tailored to the preference and interests of our users <br>
-and allow Weiyou to continue to provide free services and products</span><br>
-
-<ul><li>Legal basis – Express consent. Weiyou only processes or shares personal data collected through Weiyou apps for personalized advertising purposes once you express your consent through the pop-up notice included in one of our apps.</li></ul></li>
+<li><p>To provide you with the services you asked for
+(e.g., knowing that you completed the first level to allow access to the second one)</p>
+<ul>
+<li>Legal basis – such data processing is strictly necessary for the service(s) asked</li>
 </ul>
-
+</li>
+<li><p>To run analytics and understand how users interact with our product and services in order to continuously improve it
+(e.g. identifying that a feature is annoying for users or that a level is too difficult for most gamers)</p>
+<ul>
+<li>Legal basis - Express consent. Weiyou only processes or shares personal data collected through Weiyou apps for analytics purposes once you express your consent through the pop-up notice included in our apps.</li>
+</ul>
+</li>
+<li><p>To serve advertising tailored to the preference and interests of our users
+and allow Weiyou to continue to provide free services and products</p>
+<ul>
+<li>Legal basis – Express consent. Weiyou only processes or shares personal data collected through Weiyou apps for personalized advertising purposes once you express your consent through the pop-up notice included in one of our apps.</li>
+</ul>
+</li>
+</ul>
 <p>For all data processing activities that rely on users’ consent, you can withdraw your consent at any time from the “settings” page in our various applications.</p>
-
 <p>Please only note that in the case where you withdraw your consent or where you refuse to consent in the first place, you will still be served with advertising but that may be less relevant to you as it will not be tailored to your interests.</p>
-
-<h3 id="wiz-toc-3-809164806">What data does Weiyou collect from its apps and games?</h3>
-
+<h3 id="what-data-does-weiyou-collect-from-its-apps-and-games-">What data does Weiyou collect from its apps and games?</h3>
 <p>For all the purposes listed above the data that Weiyou collect is limited to:</p>
-
 <ul>
 <li>The apps you are using</li>
 <li>Your IP address</li>
@@ -75,88 +50,82 @@ and allow Weiyou to continue to provide free services and products</span><br>
 <li>Technical information about the device you use and your connection (user agent, type of connection, timestamp)</li>
 <li>Data pertaining to your activities on our applications and notably the way in which you interact with our applications (for instance, how and when you use our applications) and with the advertising served in our applications (for instance, number of ads served, potential clicks)</li>
 </ul>
-
-<h3 id="wiz-toc-4-1198764973">With who may your data be shared &amp; why?</h3>
-
-<p>Weiyou does not share your personal data with third parties without your prior consent. </p>
-
+<h3 id="with-who-may-your-data-be-shared-why-">With who may your data be shared &amp; why?</h3>
+<p> Weiyou does not share your personal data with third parties without your prior consent. </p>
 <p>When you consent to the collection of data for advertising and analytics purpose, we may share the data listed above with the following categories of recipients:</p>
-
 <ul>
-<li><span>Ad Partners: that allow us to monetize the ad inventory of our apps and provide users with free products and services. <br>
-Those partners usually collect data via their own tools (Software Development Kits or “SDK”). You will find a list of our partners implementing advertising SDKs through our applications and the privacy policies of their services that describe their practices and allow you to exercise your rights directly toward them hereafter:</span><br>
-
-<ul><li>Adcolony - <br>
+<li><p>Ad Partners: that allow us to monetize the ad inventory of our apps and provide users with free products and services.
+Those partners usually collect data via their own tools (Software Development Kits or “SDK”). You will find a list of our partners implementing advertising SDKs through our applications and the privacy policies of their services that describe their practices and allow you to exercise your rights directly toward them hereafter:</p>
+<ul>
+<li>Adcolony -
 <a href="https://www.adcolony.com/privacy-policy/">https://www.adcolony.com/privacy-policy/</a></li>
-<li>Applovin - <br>
+<li>Applovin -
 <a href="https://www.applovin.com/privacy/">https://www.applovin.com/privacy/</a></li>
-<li>Criteo - <br>
+<li>Criteo -
 <a href="https://www.criteo.com/privacy/">https://www.criteo.com/privacy/</a></li>
-<li>Facebook - <br>
+<li>Facebook -
 <a href="https://www.facebook.com/about/privacy">https://www.facebook.com/about/privacy</a></li>
-<li>Fyber - <br>
+<li>Fyber -
 <a href="https://www.fyber.com/privacy-policy/">https://www.fyber.com/privacy-policy/</a></li>
-<li>Google - <br>
+<li>Google -
 <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
-<li>Inmobi - <br>
+<li>Inmobi -
 <a href="https://www.inmobi.com/privacy-policy/">https://www.inmobi.com/privacy-policy/</a></li>
-<li>Ironsource - <br>
+<li>Ironsource -
 <a href="https://developers.ironsrc.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/">https://developers.ironsrc.com/ironsource-mobile/air/ironsource-mobile-privacy-policy/</a></li>
-<li>Mintegral - <br>
+<li>Mintegral -
 <a href="https://www.mintegral.com/en/privacy/">https://www.mintegral.com/en/privacy/</a></li>
-<li>Mopub - <br>
+<li>Mopub -
 <a href="https://www.mopub.com/legal/privacy/">https://www.mopub.com/legal/privacy/</a></li>
-<li>Oath - <br>
+<li>Oath -
 <a href="https://policies.oath.com/in/en/oath/privacy/">https://policies.oath.com/in/en/oath/privacy/</a></li>
-<li>Ogury - <br>
+<li>Ogury -
 <a href="https://ogury.com/privacy-policy/">https://ogury.com/privacy-policy/</a></li>
-<li>Tapjoy - <br>
+<li>Tapjoy -
 <a href="https://www.tapjoy.com/legal/tapjoy-users/#privacy-policy">https://www.tapjoy.com/legal/tapjoy-users/#privacy-policy</a></li>
-<li>Vungle - <br>
-<a href="https://vungle.com/privacy/">https://vungle.com/privacy/</a></li></ul></li>
-<li><span>Analytic companies: that provide us with tools and technologies that allow us to better understand how users interact with our services and will help us improve it. Those partners also usually collect data via their own SDKs. You will find a list of our partners implementing analytical SDKs through our applications hereafter:</span><br>
-
-<ul><li>Adjust - <br>
-<a href="https://www.adjust.com/terms/privacy-policy/">https://www.adjust.com/terms/privacy-policy/</a></li>
-<li>GameAnalytics - <br>
-<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
-<li>Google - <br>
-<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
-<li>Mixpanel - <br>
-<a href="https://mixpanel.com/legal/privacy-policy/">https://mixpanel.com/legal/privacy-policy/</a></li>
-<li>Tenjin - <br>
-<a href="https://www.tenjin.io/privacy/">https://www.tenjin.io/privacy/</a></li></ul></li>
-<li><span>Authorities: only to the extent we are obliged to by applicable laws and regulations.</span></li>
+<li>Vungle -
+<a href="https://vungle.com/privacy/">https://vungle.com/privacy/</a></li>
 </ul>
-
-<h2 id="wiz-toc-5-1440981983">Weiyou ads</h2>
-
-<h3 id="wiz-toc-6-1455903728">Why does Weiyou collect data for advertising purposes?</h3>
-
-<p>Weiyou Ads services allow Weiyou and its publisher partners (most of the time Weiyou Ads partners are third party mobile application providers) to monetize advertising inventory by allowing advertisers to serve personalized advertising to users. </p>
-
-<p>In order to deliver such services for its clients and partners, Weiyou can receive and process data for different legitimate purposes. </p>
-
-<p>You will find below explanations regarding the reasons why Weiyou may collect data and the legal bases it relies on in each case. </p>
-
+</li>
+<li><p>Analytic companies: that provide us with tools and technologies that allow us to better understand how users interact with our services and will help us improve it. Those partners also usually collect data via their own SDKs. You will find a list of our partners implementing analytical SDKs through our applications hereafter:</p>
 <ul>
-<li>To help our publisher partners monetize their ad inventory
-
-<ul><li>Just like Weiyou rely on advertising to provide free apps and games, our partners can use Weiyou Ads services to monetize their ad inventory.</li></ul></li>
-<li>To help advertiser partners promote their products and services
-
-<ul><li>Weiyou ads services help advertisers promoting their products and services to an audience that has demonstrated interests in similar products and services and allow them to optimize their marketing spends.</li></ul></li>
-<li>To improve Weiyou Ads services
-
-<ul><li>Weiyou is committed to constantly improve the services delivered to its publishers and advertisers. In order to do so, Weiyou Ads processes the data listed below in a way that notably allows us to better understand how users interact with the ads of our advertiser partners and optimize their user experience.</li></ul></li>
+<li>Adjust -
+<a href="https://www.adjust.com/terms/privacy-policy/">https://www.adjust.com/terms/privacy-policy/</a></li>
+<li>GameAnalytics -
+<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+<li>Google -
+<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+<li>Mixpanel -
+<a href="https://mixpanel.com/legal/privacy-policy/">https://mixpanel.com/legal/privacy-policy/</a></li>
+<li>Tenjin -
+<a href="https://www.tenjin.io/privacy/">https://www.tenjin.io/privacy/</a></li>
 </ul>
-
+</li>
+<li><p>Authorities: only to the extent we are obliged to by applicable laws and regulations.</p>
+</li>
+</ul>
+<h2 id="weiyou-ads">Weiyou ads</h2>
+<h3 id="why-does-weiyou-collect-data-for-advertising-purposes-">Why does Weiyou collect data for advertising purposes?</h3>
+<p> Weiyou Ads services allow Weiyou and its publisher partners (most of the time Weiyou Ads partners are third party mobile application providers) to monetize advertising inventory by allowing advertisers to serve personalized advertising to users. </p>
+<p>In order to deliver such services for its clients and partners, Weiyou can receive and process data for different legitimate purposes. </p>
+<p>You will find below explanations regarding the reasons why Weiyou may collect data and the legal bases it relies on in each case. </p>
+<ul>
+<li>To help our publisher partners monetize their ad inventory<ul>
+<li>Just like Weiyou rely on advertising to provide free apps and games, our partners can use Weiyou Ads services to monetize their ad inventory.</li>
+</ul>
+</li>
+<li>To help advertiser partners promote their products and services<ul>
+<li>Weiyou ads services help advertisers promoting their products and services to an audience that has demonstrated interests in similar products and services and allow them to optimize their marketing spends.</li>
+</ul>
+</li>
+<li>To improve Weiyou Ads services<ul>
+<li>Weiyou is committed to constantly improve the services delivered to its publishers and advertisers. In order to do so, Weiyou Ads processes the data listed below in a way that notably allows us to better understand how users interact with the ads of our advertiser partners and optimize their user experience.</li>
+</ul>
+</li>
+</ul>
 <p>For all these purposes we contractually oblige our partners to collect the express consent of their users before any data is sent to Weiyou Ads.</p>
-
-<h3 id="wiz-toc-7-1714748571">What data does Weiyou collect for advertising purposes?</h3>
-
+<h3 id="what-data-does-weiyou-collect-for-advertising-purposes-">What data does Weiyou collect for advertising purposes?</h3>
 <p>For all the purposes listed above the data that Weiyou collect is limited to:</p>
-
 <ul>
 <li>The apps you are using</li>
 <li>Your IP address</li>
@@ -164,117 +133,81 @@ Those partners usually collect data via their own tools (Software Development Ki
 <li>Technical information about the device you use and your connection (user agent, type of connection, timestamp)</li>
 <li>Data pertaining to your interactions with the advertisements served (e.g., number of ads served, potential clicks)</li>
 </ul>
-
-<h3 id="wiz-toc-8-353823503">With who is your data shared &amp; why?</h3>
-
+<h3 id="with-who-is-your-data-shared-why-">With who is your data shared &amp; why?</h3>
 <p>Data collected for the purposes of our Weiyou Ads services are only shared with the following categories of recipients and only to the extent such data is necessary for the purpose they are following: </p>
-
 <ul>
 <li>Advertisers that are using Weiyou Ads services to serve personalized or non-personalized advertising.</li>
 <li>Publishers that are using Weiyou Ads services to monetize their advertising inventory.</li>
 </ul>
-
-<h2 id="wiz-toc-9-1194039833">Weiyou website</h2>
-
-<h3 id="wiz-toc-10-1717219326">Why does Weiyou collect data from its website?</h3>
-
+<h2 id="weiyou-website">Weiyou website</h2>
+<h3 id="why-does-weiyou-collect-data-from-its-website-">Why does Weiyou collect data from its website?</h3>
 <p>Like on most websites, when you browse on minigame.vip certain information about your connection and device(s) are automatically collected for the website to operate properly. </p>
-
 <p>Weiyou and its partners also use cookies and similar technologies to analyze how our users interact with our services and administer the website. Cookies are small text files stored on your browser that allow the collection of non-personally identifiable information related to your navigation on a website. </p>
-
 <p>You can control the use of cookies in your browser settings but if you choose to disable cookies it may affect certain websites’ functionalities.</p>
-
-<h3 id="wiz-toc-11-1890346781">What data does Weiyou collect from its website?</h3>
-
+<h3 id="what-data-does-weiyou-collect-from-its-website-">What data does Weiyou collect from its website?</h3>
 <p>For the purposes listed above the data that Weiyou and its partners collect is limited to:</p>
-
 <ul>
 <li>Browsing events and interactions with the website’s contents and services</li>
 <li>Cookie identifiers, IP address and technical information related to your browser and/or device (user agent)</li>
 <li>Information you provide us with voluntarily when you contact Weiyou</li>
 </ul>
-
-<h3 id="wiz-toc-12-1464873477">Analytics and third party cookies</h3>
-
-<p>Weiyou uses Google Analytics to collect information related to the web traffic on our website. This service allows us to measure the performance and proper functioning of our website and to provide you with a better experience. For more information on the data protection and privacy aspects of these analytics services, you can refer to Google specific policy accessible here:</p>
-
+<h3 id="analytics-and-third-party-cookies">Analytics and third party cookies</h3>
+<p> Weiyou uses Google Analytics to collect information related to the web traffic on our website. This service allows us to measure the performance and proper functioning of our website and to provide you with a better experience. For more information on the data protection and privacy aspects of these analytics services, you can refer to Google specific policy accessible here:</p>
 <ul>
-<li><a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> <br>
+<li><a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
 and opt-out from Google Analytics data collection here:</li>
 <li><a href="https://tools.google.com/dlpage/gaoptout">https://tools.google.com/dlpage/gaoptout</a></li>
 </ul>
-
-<h3 id="wiz-toc-13-865318221">Social networks and other communication tools</h3>
-
+<h3 id="social-networks-and-other-communication-tools">Social networks and other communication tools</h3>
 <p>Our website also offers communication tools allowing users to share content on social networks. When you interact with such social media widgets or “share buttons”, these social network companies may collect information about you and/or your device and connection. your interactions with these services are governed by the respective privacy policies of the companies providing these services. For more information on the data protection and privacy practices of these companies, you can refer to their specific policies listed below:</p>
-
 <ul>
-<li><span>Facebook: <br>
-<a href="https://www.facebook.com/about/privacy/">https://www.facebook.com/about/privacy/</a></span></li>
-<li><span>Linkedin: <br>
-<a href="https://www.linkedin.com/legal/privacy-policy">https://www.linkedin.com/legal/privacy-policy</a></span></li>
+<li><p>Facebook:
+<a href="https://www.facebook.com/about/privacy/">https://www.facebook.com/about/privacy/</a></p>
+</li>
+<li><p>Linkedin:
+<a href="https://www.linkedin.com/legal/privacy-policy">https://www.linkedin.com/legal/privacy-policy</a></p>
+</li>
 </ul>
-
-<h2 id="wiz-toc-14-990690049">Security and other important information</h2>
-
-<h3 id="wiz-toc-15-1360006168">How long does Weiyou keep your data?</h3>
-
+<h2 id="security-and-other-important-information">Security and other important information</h2>
+<h3 id="how-long-does-weiyou-keep-your-data-">How long does Weiyou keep your data?</h3>
 <p>Personal data collected, received and processed for the purposes described in this policy is not kept longer than necessary for the purposes described above in this section. </p>
-
 <p>In all cases, Weiyou does not retain such data for more than 13 months.</p>
-
-<h3 id="wiz-toc-16-787808560">Children data</h3>
-
-<p>Weiyou never knowingly or willingly collect any personal data concerning children under 16 years of age.</p>
-
-<h3 id="wiz-toc-17-139557908">International transfers</h3>
-
+<h3 id="children-data">Children data</h3>
+<p> Weiyou never knowingly or willingly collect any personal data concerning children under 16 years of age.</p>
+<h3 id="international-transfers">International transfers</h3>
 <p>Some of the partners and processors referred to in this policy are located outside of the European Union.</p>
-
 <p>In such case, we ensure that:</p>
-
 <ul>
-<li><span>the personal data is transferred to countries recognized as offering an equivalent level of protection or,</span></li>
-<li><span>Personal data is transferred to certified entities under the Privacy Shield or,</span></li>
-<li><span>For personal data transferred outside of countries recognized by the European Commission as having a sufficient level of protection, any of the mechanisms offering appropriate guarantees is used, for which provision is made by applicable regulations, and in particular the adoption of the standard contractual clauses of the European Commission.</span></li>
+<li><p>the personal data is transferred to countries recognized as offering an equivalent level of protection or,</p>
+</li>
+<li><p>Personal data is transferred to certified entities under the Privacy Shield or,</p>
+</li>
+<li><p>For personal data transferred outside of countries recognized by the European Commission as having a sufficient level of protection, any of the mechanisms offering appropriate guarantees is used, for which provision is made by applicable regulations, and in particular the adoption of the standard contractual clauses of the European Commission.</p>
+</li>
 </ul>
-
-<h2 id="wiz-toc-18-1172849614">What rights do you have?</h2>
-
-<h3 id="wiz-toc-19-739236410">Consent withdrawal and opt-out of sale of information</h3>
-
+<h2 id="what-rights-do-you-have-">What rights do you have?</h2>
+<h3 id="consent-withdrawal-and-opt-out-of-sale-of-information">Consent withdrawal and opt-out of sale of information</h3>
 <p>You can change your consent status at any time from the Privacy Settings available in Weiyou mobile games and applications. </p>
-
 <p>Please note that if Weiyou does not sell the personal information of its users, we may share it with third parties such as analytics and advertising companies in order to improve and personalize your experience and adapt the content and ads of our services. </p>
-
 <p>Adjusting your consent settings within Weiyou apps and games, will allow you to block the collection of data for these purposes and will de facto prevent the sharing of information with our analytics and/or advertising partners.</p>
-
-<h3 id="wiz-toc-20-191483394">Access right</h3>
-
+<h3 id="access-right">Access right</h3>
 <p>Upon request, Weiyou will provide you with information about whether we hold any of your personal information. You may access or request deletion of your personal information directly in Weiyou mobile apps or by contacting Weiyou Data Protection Officer as indicated in the “Contact” section below. We will respond to your request within a reasonable timeframe.</p>
-
-<h3 id="wiz-toc-21-1817761067">Rectification and erasure</h3>
-
+<h3 id="rectification-and-erasure">Rectification and erasure</h3>
 <p>You may request Weiyou the rectification of inaccurate personal data concerning you, as well as the completion of incomplete personal data. You may also request Weiyou to erase without undue delay your personal data when it is no longer necessary for Weiyou to retain such data.</p>
-
 <p>In order for your data to be erased or rendered inaccessible you can either: </p>
-
 <ul>
-<li><span>reset your mobile advertising identifier (IDFA on iOS, GAAID on Androïd) or activate “Limit Ad Tracking” in your device’ settings in order to make previously collected data non linkable to you or your device anymore and limit further data collection if you choose to enable the “Limit Ad Tracking” option</span></li>
-<li><span>contact Weiyou Data Protection Officer, as indicated in the “Contact” section below in order to have the data previously collected by Weiyou on you and/or your device permanently erased or anonymized</span></li>
+<li><p>reset your mobile advertising identifier (IDFA on iOS, GAAID on Androïd) or activate “Limit Ad Tracking” in your device’ settings in order to make previously collected data non linkable to you or your device anymore and limit further data collection if you choose to enable the “Limit Ad Tracking” option</p>
+</li>
+<li><p>contact Weiyou Data Protection Officer, as indicated in the “Contact” section below in order to have the data previously collected by Weiyou on you and/or your device permanently erased or anonymized</p>
+</li>
 </ul>
-
-<h3 id="wiz-toc-22-1624460743">Portability</h3>
-
+<h3 id="portability">Portability</h3>
 <p>Upon request, Weiyou will provide you with the personal data that you provided to us and, if possible, will communicate this information directly to another data controller of your choice in a portable format when the processing is based on consent or contract.</p>
-
-<h2 id="wiz-toc-23-1238002614">Contact</h2>
-
+<h2 id="contact">Contact</h2>
 <p>Weiyou has the following contact information:</p>
-
 <ul>
 <li>E-mail: qnwan@minigame.vip</li>
 <li>Data Protection Officer – Room 315, south of the 3rd floor, Management Committee of Chaohu Economic Development Zone,Anhui,China</li>
 </ul>
-
-<p>You may also contact your local data protection authority for unresolved complaints.</p></body></html>
+<p>You may also contact your local data protection authority for unresolved complaints.</p>
+</body></html>
